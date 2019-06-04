@@ -1,0 +1,121 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+
+}
+@keyframes anim1{
+	from{background-color: #efde1c}
+	to{background-color:#c17b03}
+}
+@keyframes anim2{
+	from{background-color:#0b0e4f}
+	to{background-color: #242bc9}
+}
+@keyframes anim3{
+	0% {background-color: #8e4e26;}
+	100% {background-color:#ffc5af;}
+}
+@keyframes anim4{
+	0% {background-color: #ffc5af;}
+	
+	
+	100% {background-color:#8e4e26;}
+}
+.tm-tokenA{
+	margin-top: 10px;
+	text-align: center;
+	width: 200px;
+	height: 100px;
+	border:5px solid black;
+	font-size: 20px;
+	line-height: 40px;
+	position: static;
+	display: inline-block;
+	animation: anim1;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+.tm-tokenB{
+	margin-top: 15px;
+	text-align: center;
+	width: 200px;
+	height: 100px;
+	border:5px solid black;
+	font-size: 20px;
+	line-height: 40px;
+	position: relative;
+	display: inline-block;
+	left: 230px;
+	animation: anim2;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+.grid-container{
+	display: inline-grid;
+	grid-template-columns:auto auto auto auto auto auto auto ;
+	position: relative;
+	left: 250px;
+	top:-200px;
+
+
+}
+.grid-item {
+	 animation: anim2;
+	 animation-duration: 2s;
+	 animation-iteration-count: infinite;
+ 	 border: 2px solid #03041c;
+ 	 border-radius: 10%;
+ 	 padding: 20px;
+ 	 font-size: 30px;
+ 	 text-align: center;
+ 	 width: 50px;
+ 	 height: 50px;
+}
+.grid-container1{
+	display: inline-grid;
+	grid-template-rows: auto auto auto auto auto auto auto;
+	position: relative;
+	left: 812px;
+	top:-305px;
+
+}
+.grid-container2{
+	display: inline-grid;
+	position: relative;
+	grid-template-columns:auto auto auto auto auto auto ;
+	left: 152px;
+	top:258px;
+
+}
+.grid-container3{
+	display: inline-grid;
+	position: relative;
+	grid-template-rows: auto auto auto auto auto auto auto;
+	top:-305px;
+	left:-416px;
+}
+.grid-item1{
+
+	 animation: anim1;
+	 animation-duration: 2s;
+	 animation-iteration-count: infinite;
+ 	 border: 2px solid #bcb907;
+ 	 border-radius: 10%;
+ 	 padding: 20px;
+ 	 font-size: 30px;
+ 	 text-align: center;
+ 	 width: 50px;
+ 	 height: 50px;
+
+}
+#rollthedice{
+		 animation: anim3;
+	 animation-duration: 4s;
+	 animation-iteration-count: infinite;
+}
+.tm-turn{
+			 animation: anim4;
+	 animation-duration: 4s;
+	 animation-iteration-count: infinite;
+}
