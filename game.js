@@ -60,7 +60,7 @@ function move1A(){
 			move(num,"tm-token1A",cur1A);
 			cur1A=cur1A+num;
 		}
-		 if (cur1A==26) {
+		 if ((cur1A+num)==26) {
 			var pos=document.getElementsByClassName("tm-token1A");
 			pos[0].parentNode.removeChild(pos[0]);
 			cur1A=0;
